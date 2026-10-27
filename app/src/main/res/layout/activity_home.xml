@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/textMenuUtama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="MENU UTAMA"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonKalkulator"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Buka Kalkulator"
+        android:textSize="16sp"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:id="@+id/buttonRiwayat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Riwayat Perhitungan"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/buttonTentang"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Tentang Aplikasi"
+        android:textSize="16sp" />
+
+</LinearLayout>
